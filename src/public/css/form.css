@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 6vw;
+    width: 100vw;
+    background: #3398DA;
+}
+.header_text{
+    display: inline-block;
+    margin-left: 20vw;
+    margin-top: 20px;
+    color : white;
+    font-size: 25px;
+}
+.sentence{
+    display: inline-block;
+    margin-left: 20vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-form__inner{
+    margin: 0 auto;
+    border: 1px solid #bebebe;
+    width: 60vw;
+    margin-bottom: 20px;
+}
+.name_group{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.name_label{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 120px;
+}
+.contact_form_input_name{
+    height: 30px;
+    width: 210px;
+}
+.mail_group{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mail_label {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.contact_form_input_mail{
+    height: 30px;
+    width: 210px;
+}
+.service_group{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.service_label {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 90px;
+}
+.service_select{
+    height: 30px;
+    width: 210px;
+}
+.category_group{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.category_label {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 70px;
+}
+.category_inputs{
+    display: inline-block;
+}
+.category_input_second{
+    margin-left: 195px;
+}
+.category_input_third{
+    margin-left: 195px;
+}
+.plan_group{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.plan_label {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 120px;
+}
+.plan_checkboxes{
+    display: inline-block;
+}
+.plan_input_second{
+    margin-left: 195px;
+}
+.plan_input_third{
+    margin-left: 195px;
+}
+.text_group{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.text_label {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.text{
+    display: inline-block;
+    margin-left: 20px;
+    height: 170px;
+    width: 500px;
+}
+.btn_content{
+    text-align: center;
+}
+.contact_form_btn{
+    display: inline-block;
+    height: 40px;
+    width: 250px;
+    border: none;
+    background: #3398DA;
+    color: white;
+    border-radius: 30px;
+}
+/* 共通部品 */
+.contact-form_required{
+    height: 20px;
+    width: 25px;
+    background: #E9584A;
+    color: white;
+    font-size: 10px;
+}
+.contact-form__error-message{
+    margin-left: 195px;
+    color: #E9584A;
+    font-size: 15px;
+}

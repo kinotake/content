@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 6vw;
+    width: 100vw;
+    background: #3398DA;
+}
+.header_text {
+    display: inline-block;
+    margin-left: 20vw;
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+.sentence_bold{
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 20vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sentence{
+    display: inline-block;
+    margin-left: 20vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn_content {
+    text-align: center;
+}
+.form_btn_back {
+    display: inline-block;
+    height: 30px;
+    width: 250px;
+    border: none;
+    background: #cfcfcf;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 15px;
+}
